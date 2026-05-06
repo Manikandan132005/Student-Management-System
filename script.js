@@ -39,7 +39,7 @@ function login() {
         if (username === 'manikandan' && password === 'admin') {
             isAuthenticated = true;
         } else {
-            alert('Invalid admin credentials. Hint: ganesh / admin');
+            alert('Invalid admin credentials. Hint: manikandan / admin');
         }
     } else if (currentRole === 'teacher') {
         if (username === 'teacher' && password === 'teacher123') {
